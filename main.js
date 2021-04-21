@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
   await page.click('.gLFyf')
   await page.keyboard.type("speed test")
   await page.keyboard.press('Enter')
-  await page.waitForTimeout(5000)
+  await page.waitForTimeout(1000)
   await page.click('.fSXkBc')
   await page.waitForTimeout(20000)
   await page.screenshot({ path: 'example.png' });
